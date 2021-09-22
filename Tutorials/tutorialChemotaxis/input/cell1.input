@@ -1,0 +1,54 @@
+[IN] rcut
+1.122462048309373
+1.23470825314
+3
+1.68369307246
+
+[IN] sigma
+1.1
+1
+1.5
+
+[IN] mass
+1
+10
+
+[IN] particle distribution
+24 24 1
+30 30 1
+20 20 1
+12 12 1
+5 5 1
+50 50 1
+1 1 1
+8 8 1
+
+% apply a displacement to all party by
+[IN] position shift
+1 0 0
+
+
+% velocity distribution type: 0 for orderly, 1 for uniformly random.
+[IN] velocity distribution type 
+1
+0
+
+[IN] orderly velocity distribution 
+0.1 0 0
+-0.1 0 0
+0.5 0 0
+0.5 0.5 0
+-1 0 0
+
+[IN] uniformly randomly velocity distribution lower
+-1 -1 0
+-2 -2 0
+0 0 0
+
+[IN] uniformly randomly velocity distribution upper
+1 1 0
+2 2 0
+0 0 0
+
+[IN] output directory name
+workspace/simple_chemotaxis_20160408/output/Cell_outputs/cell1/

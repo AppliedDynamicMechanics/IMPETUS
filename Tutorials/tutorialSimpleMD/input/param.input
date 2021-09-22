@@ -1,0 +1,34 @@
+[IN] delta_t
+0.01
+
+[IN] end_step
+1000
+10000
+100000
+
+[IN] cell_print_interval
+100
+
+[IN] cont_print_interval
+100
+
+[IN] proc.np
+2 2 1
+
+[IN] world.lo
+0 0 0
+
+[IN] world.hi
+20 20 20
+
+[IN] desired_temperature
+1
+
+[IN] number of networks
+0
+
+[IN] number of cell list space
+1
+
+[IN] number of continuum space
+0

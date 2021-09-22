@@ -1,0 +1,35 @@
+[IN] rcut
+2.5
+1.122462048309373
+4
+
+[IN] sigma
+1
+
+[IN] mass
+1
+
+
+[IN] particle distribution
+20 20 20
+
+% apply a displacement to all party by
+[IN] position shift
+0 0 0
+
+
+% velocity distribution type: 0 for orderly, 1 for uniformly random.
+[IN] velocity distribution type 
+1
+
+[IN] orderly velocity distribution 
+0 0 0
+
+[IN] uniformly randomly velocity distribution lower
+-0.1 -0.1 -0.1 
+
+[IN] uniformly randomly velocity distribution upper
+0.1 0.1 0.1
+
+[IN] output directory name
+Tutorials/tutorialSimpleMD/output/Cell_outputs/cell0/

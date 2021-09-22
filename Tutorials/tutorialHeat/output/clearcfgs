@@ -1,0 +1,10 @@
+#!/bin/bash
+
+rm -f Cell_outputs/cell*/cfg-lings/*
+rm -f Cont_outputs/cont*/cfg-lings/*
+
+rm -f Cell_outputs/cell*/Cfg/*
+rm -f Cont_outputs/cont*/Cfg/*
+
+
+rm -f Cell_outputs/Cfg/*

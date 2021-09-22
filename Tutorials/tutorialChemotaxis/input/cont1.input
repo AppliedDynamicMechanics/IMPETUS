@@ -1,0 +1,9 @@
+[IN] nx ny nz
+20 20 1
+
+[IN] ghost_layer
+1
+
+[IN] output directory name
+workspace/simple_chemotaxis_20160408/output/Cont_outputs/cont0/
+output/Cont_outputs/cont1/

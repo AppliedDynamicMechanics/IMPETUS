@@ -1,0 +1,10 @@
+[IN] nx ny nz
+20 20 20
+120 120 120
+100 100 100
+
+[IN] ghost_layer
+1
+
+[IN] output directory name
+Tutorials/tutorialHeat/output/Cont_outputs/cont0/
