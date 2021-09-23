@@ -1,2 +1,2 @@
 #!/bin/sh
-/home3/shared_bin/openmpi/bin/mpirun -n $1 -machinefile nodefile bin/impetus-run.exe
+mpirun -n $1 bin/impetus-run.exe
